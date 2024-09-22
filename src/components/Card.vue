@@ -15,7 +15,7 @@
       <img 
         src="../assets/images/image-tanya.jpg" 
         alt="Tanya"
-        class="relative z-10 w-[64%] rounded object-cover mx-auto mt-6 sm:mt-8 shadow-photo lg:max-w-[1000px]"
+        class="relative z-10 w-[64%] sm:w-[62%] rounded object-cover mx-auto mt-6 sm:mt-10 shadow-photo lg:max-w-[1000px]"
       >
 
       <div class="relative w-20 left-1/2 transform -translate-x-1/2 lg:left-32 lg:translate-x-0 bottom-5 z-20 flex">
