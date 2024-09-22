@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="w-full h-screen m-auto mt-10 flex justify-center">
+  <div class="w-full h-screen m-auto mt-10 flex flex-col items-center">
     
     <div class="relative">
       <img 
@@ -26,6 +26,19 @@
         <button class="bg-white w-full rounded-r-full p-3">
           <img src="../assets/images/icon-next.svg" alt="Right arrow" class="w-3 h-3">
         </button>
+      </div>
+    </div>
+
+    <div class="w-[80%] flex flex-col items-center mt-6 text-center z-10">
+      <img 
+        src="../assets/images/pattern-quotes.svg" 
+        alt="Background image"
+        class="relative w-14"
+      >
+      <p class="w-full -mt-6 font-light">“ I’ve been interested in coding for a while but never taken the jump, until now. I couldn’t recommend this course enough. I’m now in the job of my dreams and so excited about the future. ”</p>
+      <div>
+        <h2 class="mt-4 font-bold">Tanya Sinclair</h2>
+        <span class="text-grayish-blue">UX Engineer</span>
       </div>
     </div>
 
