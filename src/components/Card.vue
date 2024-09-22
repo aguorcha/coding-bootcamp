@@ -3,9 +3,9 @@
 </script>
 
 <template>
-  <div class="w-full h-screen m-auto mt-10 flex items-center justify-center relative">
+  <div class="w-full h-screen m-auto mt-10 flex justify-center">
     
-    <div class="">
+    <div class="relative">
       <img 
         src="../assets/images/pattern-bg.svg" 
         alt="Background image"
@@ -15,10 +15,10 @@
       <img 
         src="../assets/images/image-tanya.jpg" 
         alt="Tanya"
-        class="relative z-10 w-[64%] rounded object-cover mx-auto mt-[-320px] shadow-photo lg:max-w-[1000px] xs:mt-[-240px]"
+        class="relative z-10 w-[64%] rounded object-cover mx-auto mt-6 sm:mt-8 shadow-photo lg:max-w-[1000px]"
       >
 
-      <div class="absolute left-1/2 transform -translate-x-1/2 top-[250px] z-20 flex">
+      <div class="relative w-20 left-1/2 transform -translate-x-1/2 lg:left-32 lg:translate-x-0 bottom-5 z-20 flex">
         <button class="bg-white w-full rounded-l-full p-3">
           <img src="../assets/images/icon-prev.svg" alt="Left arrow" class="w-3 h-3">
         </button>
@@ -29,20 +29,16 @@
       </div>
     </div>
 
-
-
-
-
     <img 
       src="../assets/images/pattern-curve.svg" 
       alt="Background image"
-      class="absolute bottom-4 inset-x-0 w-full h-auto z-0 max-w-[600px]"
+      class="absolute bottom-0 inset-x-0 w-full h-auto z-0 max-w-[600px]"
     >
   </div>
 </template>
 
 <style scoped>
 .shadow-photo {
-  box-shadow: 0 30px 50px -20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 30px 30px -10px rgba(0, 0, 0, 0.2);
 }
 </style>
